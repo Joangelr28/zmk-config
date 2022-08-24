@@ -194,21 +194,21 @@
             >;
         };
 
+        layer_so_settings {
+            bindings = <
+ &trans   &none       &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE   &none   &none   &none   &none   &none   &none
+ &trans   &none  &kp C_PREV      &kp C_PP    &kp C_NEXT       &none   &none   &none   &none   &none   &none   &none
+ &trans   &none       &none  &kp C_BRI_DN  &kp C_BRI_UP       &none   &none   &none   &none   &none   &none   &none
+                                   &trans         &mo 7      &trans  &trans  &trans  &trans
+            >;
+        };
+        
         layer_kb_settings {
             bindings = <
  &trans  &rgb_ug RGB_TOG   &none  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF   &none   &none   &none   &none   &none   &none
   &none            &none   &none  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI            &none   &none   &none   &none   &none   &none   &none
   &none            &none   &none           &tog 1           &tog 4           &tog 5   &none   &none   &none   &none   &none   &none
                                             &none            &none            &none   &none   &none   &none
-            >;
-        };
-
-        layer_so_settings {
-            bindings = <
- &trans   &none       &none  &kp C_VOL_DN  &kp C_VOL_UP  &kp K_MUTE   &none   &none   &none   &none   &none   &none
- &trans   &none  &kp C_PREV      &kp C_PP    &kp C_NEXT       &none   &none   &none   &none   &none   &none   &none
- &trans   &none       &none  &kp C_BRI_DN  &kp C_BRI_UP       &none   &none   &none   &none   &none   &none   &none
-                                   &trans         &mo 6      &trans  &trans  &trans  &trans
             >;
         };
     };
