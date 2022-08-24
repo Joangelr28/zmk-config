@@ -135,14 +135,6 @@
                 <&macro_release>,
                 <&kp LCMD &kp LSHFT>;
         };
-        open_spot: open_spot {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LCMD &kp SPACE>;
-        };
     };
 
     keymap {
@@ -179,25 +171,25 @@
             bindings = <
  &trans    &kp F1     &kp F2     &kp F3   &paste   &copy  &scrnsh_full  &scrunch_part    &kp UP     &kp F4   &kp F5  &trans
  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &redo         &undo       &kp LEFT  &kp DOWN  &kp RIGHT   &kp F6  &trans
- &trans    &kp F7     &kp F8     &kp F9    &none    &cut         &none     &open_spot   &kp F10    &kp F11  &kp F12  &trans
+ &trans    &kp F7     &kp F8     &kp F9    &none    &cut         &none          &none   &kp F10    &kp F11  &kp F12  &trans
                                  &trans   &trans  &trans        &trans         &trans    &trans
             >;
         };
 
         layer_g_moba {
             bindings = <
- &lt 7 SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5  &trans  &trans  &trans  &trans  &trans  &trans
-   &kp TAB         &kp Q         &kp W         &kp E         &kp R           &kp T  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans         &kp Z        &trans        &trans         &kp D           &kp F  &trans  &trans  &trans  &trans  &trans  &trans
+ &lt 7 SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5   &none   &none   &none   &none   &none   &none
+   &kp TAB         &kp Q         &kp W         &kp E         &kp R           &kp T   &none   &none   &none   &none   &none   &none
+    &trans         &kp Z        &trans        &trans         &kp D           &kp F   &none   &none   &none   &none   &none   &none
                                            &kp LCTRL        &trans  &mt LALT SPACE  &trans  &trans  &trans
             >;
         };
 
         layer_g_shooter {
             bindings = <
- &lt 7 ESC   &kp Q   &kp W      &kp E   &kp R      &kp T  &trans  &trans  &trans  &trans  &trans  &trans
-   &kp TAB   &kp A   &kp S      &kp D   &kp F      &kp G  &trans  &trans  &trans  &trans  &trans  &trans
- &kp LSHFT   &kp Z   &kp X      &kp C   &kp V      &kp B  &trans  &trans  &trans  &trans  &trans  &trans
+ &lt 7 ESC   &kp Q   &kp W      &kp E   &kp R      &kp T   &none   &none   &none   &none   &none   &none
+   &kp TAB   &kp A   &kp S      &kp D   &kp F      &kp G   &none   &none   &none   &none   &none   &none
+ &kp LSHFT   &kp Z   &kp X      &kp C   &kp V      &kp B   &none   &none   &none   &none   &none   &none
                             &kp LCTRL   &kp M  &kp SPACE  &trans  &trans  &trans
             >;
         };
