@@ -159,7 +159,7 @@
             >;
         };
 
-        layer_num&signs {
+        layer_numbers {
             bindings = <
  &trans         &kp LT         &kp GT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp PRCNT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
   &none  &kp AMPERSAND  &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp SQT  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans
@@ -168,7 +168,7 @@
             >;
         };
 
-        layer_lower {
+        layer_functions {
             bindings = <
  &trans    &kp F1     &kp F2     &kp F3   &paste   &copy  &scrnsh_full  &scrunch_part    &kp UP     &kp F4   &kp F5  &trans
  &trans  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &redo         &undo       &kp LEFT  &kp DOWN  &kp RIGHT   &kp F6  &trans
