@@ -159,7 +159,7 @@
             >;
         };
 
-        layer_numbers {
+        layer_num&signs {
             bindings = <
  &trans         &kp LT         &kp GT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp PRCNT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
   &none  &kp AMPERSAND  &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp SQT  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans
@@ -177,16 +177,7 @@
             >;
         };
 
-        layer_settings {
-            bindings = <
-          &trans  &rgb_ug RGB_HUI   &none  &bt BT_NXT  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI         &none         &none             &none         &none         &none   &none
- &rgb_ug RGB_TOG  &rgb_ug RGB_HUD   &none  &bt BT_CLR     &kp C_BRI_DN     &kp C_BRI_UP         &none    &kp K_PREV  &kp K_PLAY_PAUSE    &kp K_STOP    &kp K_NEXT   &none
-           &none  &rgb_ug RGB_EFF   &none  &bt BT_PRV     &kp C_VOL_DN     &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
-                                               &tog 1     &bt BT_SEL 0     &bt BT_SEL 1         &none         &none             &none
-            >;
-        };
-
-        LAYER_GMOBA {
+        layer_gmoba {
             bindings = <
  &lt 4 SQT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5  &trans  &trans  &trans  &trans  &trans  &trans
    &kp TAB         &kp Q         &kp W         &kp E         &kp R           &kp T  &trans  &trans  &trans  &trans  &trans  &trans
@@ -195,12 +186,21 @@
             >;
         };
 
-        LAYER_GSHOOTER {
+        layer_gshooter {
             bindings = <
  &lt 4 ESC   &kp Q   &kp W   &kp E   &kp R      &kp T  &trans  &trans  &trans  &trans  &trans  &trans
    &kp TAB   &kp A   &kp S   &kp D   &kp F      &kp G  &trans  &trans  &trans  &trans  &trans  &trans
        &kp   &kp Z   &kp X   &kp C   &kp V      &kp B  &trans  &trans  &trans  &trans  &trans  &trans
                             &trans  &trans  &kp SPACE  &trans  &trans  &trans
+            >;
+        };
+
+        layer_settings {
+            bindings = <
+          &trans  &rgb_ug RGB_HUI   &none  &bt BT_NXT  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI         &none         &none             &none         &none         &none   &none
+ &rgb_ug RGB_TOG  &rgb_ug RGB_HUD   &none  &bt BT_CLR     &kp C_BRI_DN     &kp C_BRI_UP         &none    &kp K_PREV  &kp K_PLAY_PAUSE    &kp K_STOP    &kp K_NEXT   &none
+           &none  &rgb_ug RGB_EFF   &none  &bt BT_PRV     &kp C_VOL_DN     &kp C_VOL_UP  &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4   &none
+                                               &tog 1     &bt BT_SEL 0     &bt BT_SEL 1         &none         &none             &none
             >;
         };
     };
