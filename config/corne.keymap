@@ -168,7 +168,7 @@
 
         layer_numbers {
             bindings = <
- &trans         &kp LT         &kp GT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp PRCNT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
+  &mo 7         &kp LT         &kp GT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL  &kp PRCNT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp STAR  &trans
   &none  &kp AMPERSAND  &kp BACKSLASH      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp SQT  &kp EQUAL  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS  &trans
  &trans      &kp GRAVE     &kp DOLLAR        &kp LEFT_BRACE        &kp RIGHT_BRACE    &kp AT     &kp N0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp CARET  &trans
                                                      &trans                 &trans    &trans    &kp DEL        &trans        &trans
