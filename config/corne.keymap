@@ -57,92 +57,70 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp INSERT>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT>;
+                <&macro_press &kp LEFT_SHIFT>,
+                <&macro_tap &kp INSERT>,
+                <&macro_release &kp LEFT_SHIFT>;
         };
         copy: copy {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RCTRL>,
-                <&macro_tap>,
-                <&kp C>,
-                <&macro_release>,
-                <&kp RCTRL>;
+                <&macro_press &kp RCTRL>,
+                <&macro_tap &kp C>,
+                <&macro_release &kp RCTRL>;
         };
         cut: cut {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RIGHT_CONTROL>,
-                <&macro_tap>,
-                <&kp X>,
-                <&macro_release>,
-                <&kp RCTRL>;
+                <&macro_press &kp RIGHT_CONTROL>,
+                <&macro_tap &kp X>,
+                <&macro_release &kp RCTRL>;
         };
         undo: undo {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RIGHT_CONTROL>,
-                <&macro_tap>,
-                <&kp Z>,
-                <&macro_release>,
-                <&kp RCTRL>;
+                <&macro_press &kp RIGHT_CONTROL>,
+                <&macro_tap &kp Z>,
+                <&macro_release &kp RCTRL>;
         };
         redo: redo {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp RIGHT_CONTROL &kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp Z>,
-                <&macro_release>,
-                <&kp LEFT_SHIFT &kp RCTRL>;
+                <&macro_press &kp RIGHT_CONTROL &kp LEFT_SHIFT>,
+                <&macro_tap &kp Z>,
+                <&macro_release &kp LEFT_SHIFT &kp RCTRL>;
         };
         scrnsh_full: scrnsh_full {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LCMD &kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp NUMBER_3>,
-                <&macro_release>,
-                <&kp LCMD &kp LEFT_SHIFT>;
+                <&macro_press &kp LCMD &kp LEFT_SHIFT>,
+                <&macro_tap &kp NUMBER_3>,
+                <&macro_release &kp LCMD &kp LEFT_SHIFT>;
         };
         scrnsh_part: scrnsh_part {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LCMD &kp LSHFT>,
-                <&macro_tap>,
-                <&kp NUMBER_4>,
-                <&macro_release>,
-                <&kp LCMD &kp LSHFT>;
+                <&macro_press &kp LCMD &kp LSHFT>,
+                <&macro_tap &kp NUMBER_4>,
+                <&macro_release &kp LCMD &kp LSHFT>;
         };
         open_spot: open_spot {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LCMD &kp SPACE>;
+                <&macro_tap &kp LCMD &kp SPACE>;
         };
     };
 
