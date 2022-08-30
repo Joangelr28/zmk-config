@@ -167,7 +167,7 @@
 
         layer_g_moba {
             bindings = <
- &kp APOS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5   &none   &none   &none   &none   &none   &none
+ &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5   &none   &none   &none   &none   &none   &none
   &kp TAB         &kp Q         &kp W         &kp E         &kp R           &kp T   &none   &none   &none   &none   &none   &none
   &kp ESC         &kp Z         &kp C         &kp D         &kp F           &kp B   &none   &none   &none   &none   &none   &none
                                           &kp LCTRL         &mo 7  &mt LALT SPACE  &trans  &trans  &trans
